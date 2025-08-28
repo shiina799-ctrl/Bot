@@ -1,0 +1,32 @@
+[
+    {
+        "key": "satoru_4d59",
+        "used": false,
+        "duration": 10
+    },
+    {
+        "key": "satoru_5757",
+        "used": false,
+        "duration": 10
+    },
+    {
+        "key": "satoru_2fe2",
+        "used": false,
+        "duration": 10
+    },
+    {
+        "key": "satoru_b9d7",
+        "used": true,
+        "duration": 100
+    },
+    {
+        "key": "satoru_3965",
+        "used": true,
+        "duration": 1
+    },
+    {
+        "key": "satoru_4502",
+        "used": true,
+        "duration": 1
+    }
+]
