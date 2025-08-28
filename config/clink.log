@@ -1,0 +1,34 @@
+065c app_context::start_logger  476 ---- 2025/07/18 20:37:25.794 -------------------------------------------------
+065c app_context::start_logger  479 Host process is 'cmd.exe' (pid 1628)
+065c app_context::start_logger  483 DLL path is 'C:\Users\Administrator\Downloads\3\1\vendor\clink'
+065c app_context::start_logger  498 Windows version 6.3.9600 (x64)
+065c app_context::start_logger  500 Clink version 1.6.14.93b83f (x64)
+065c hook_setter::hook_setter  159 >>> Started hook transaction.
+065c hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-2-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E508 (value is 00007FFF15545070).
+065c hook_setter::attach_iat   316 Attempting to hook SetEnvironmentStringsW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-2-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E538 (value is 00007FFF15583330).
+065c hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E388 (value is 00007FFF15557760).
+065c hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-2-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E520 (value is 00007FFF15539270).
+065c hook_setter::commit       207 <<< Hook transaction committed.
+065c hook_setter::hook_setter  159 >>> Started hook transaction.
+065c hook_setter::detach_iat   359 Attempting to unhook 00007FFF06395200 from GetEnvironmentVariableW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-2-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E520 (value is 00007FFF06395200).
+065c hook_setter::commit       207 <<< Hook transaction committed.
+065c hook_setter::hook_setter  159 >>> Started hook transaction.
+065c hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E370 (value is 00007FFF15600480).
+065c hook_setter::commit       207 <<< Hook transaction committed.
+065c hook_setter::hook_setter  159 >>> Started hook transaction.
+065c hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF64C720000.
+065c pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-1-0.dll'
+065c find_iat                  124 Found import at 00007FF64C76E578 (value is 00007FFF155578B0).
+065c hook_setter::commit       207 <<< Hook transaction committed.
