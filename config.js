@@ -19,14 +19,14 @@
     "commandDisabled": [],
     "eventDisabled": [],
     "BOTNAME": "Trinh",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/inhongan.2024",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/Monika.38313020",
     "PREFIX": "/",
     "ADMINBOT": [
-        "61550301337372",       
+        "100032532770694",       
         ""
     ],
     "NDH": [
-        "61550301337372",
+        "100032532770694",
         ""
     ],
     "DATABASE": {
@@ -38,7 +38,7 @@
     "NPM_FCA": "./gojo/hzi",
     "SETUP_WIN": {
         "port": 8080,
-        "use": "Nếu chạy nhiều hơn 1 file trên win thì thay đổi số này ở file thứ 2, 3, 4..."
+        "use": "Nếu chạy nhiều hơn 1 file trên win thì thay đổi sỄ1�7 này Ễ1�7 file thỄ1�7 2, 3, 4..."
     },
     "FCAOption": {
         "forceLogin": true,
